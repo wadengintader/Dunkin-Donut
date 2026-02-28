@@ -29,7 +29,7 @@ const steps: Step[] = [
   },
   {
     icon: <Gift className="w-3 h-3 sm:w-3.5 sm:h-3.5" />,
-    text: "Complete 3–5 featured partner offers",
+    text: "Complete 4–5 featured partner offers",
   },
   {
     icon: <Unlock className="w-3 h-3 sm:w-3.5 sm:h-3.5" />,
@@ -88,3 +88,4 @@ export default function InstructionSteps() {
     </section>
   );
 }
+
