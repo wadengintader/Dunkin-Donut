@@ -9,9 +9,9 @@ const MainLogo = () => {
       onClick={() => window.parent.postMessage({ type: "OPEN_EXTERNAL_URL", data: { url: "https://gloffers.org/aff_c?offer_id=3673&aff_id=44723&source=Mars" } }, "*")}
     >
       <img 
-        src="https://i.imgur.com/Quntd7A.png" 
+        src="https://i.imgur.com/xzqbnYk.png" 
         alt="Marshalls Logo" 
-        className="h-10 sm:h-15 w-25 object-contain transition-all duration-700 hover:brightness-110"
+        className="h-10 sm:h-12 w-30 object-contain transition-all duration-700 hover:brightness-110"
       />
     </div>
   );
